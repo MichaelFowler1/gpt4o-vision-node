@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "gpt4o-vision-node"
+abstract: "Professional: A real-time computer vision pipeline that streams smartphone video to a FastAPI backend, utilizing OpenAI's GPT-4o for live scene analysis and security monitoring."
+authors:
+  - family-names: "Fowler"
+    given-names: "Michael"
+    alias: "MichaelFowler1"
+repository-code: "https://github.com/MichaelFowler1/gpt4o-vision-node"
+url: "https://github.com/MichaelFowler1/gpt4o-vision-node"
+license: "Apache-2.0"
+date-released: "2026-05-12"
