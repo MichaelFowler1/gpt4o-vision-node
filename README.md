@@ -102,3 +102,15 @@ ngrok http 8000
 * **Cost:** every frame is a GPT-4o vision call (`detail: high`) on a ~4 s loop. Watch your usage; raise the interval in `analyzeFrame()` to reduce spend.
 * **CORS is wide open** (`allow_origins=["*"]`) — fine for local/demo use; lock it down before exposing the endpoint.
 * **No persistence:** the log lives in the browser tab only; frames are processed in memory and not stored server-side.
+
+## License
+
+Everything in this repository from this change on is under the
+[PolyForm Noncommercial License 1.0.0](LICENSE). Earlier commits were released
+under the Apache License 2.0 and stay under it. In plain terms: it is free for
+any noncommercial purpose, and for schools and universities, public research
+organizations, government institutions and charities, whatever their funding.
+Commercial use needs a license from the author: ask through
+[the issue tracker](https://github.com/MichaelFowler1/gpt4o-vision-node/issues). Anyone who
+passes on a copy has to pass on the license and the `Required Notice:` line in
+[NOTICE](NOTICE). This is a plain summary; the LICENSE file is what governs.

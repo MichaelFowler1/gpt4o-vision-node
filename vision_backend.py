@@ -1,3 +1,6 @@
+# Copyright 2026 Michael Fowler
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
